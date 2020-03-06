@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Animals Expanded — Cats and Dogs</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="CatToNukos"]/recipeUsers</xpath>
+					<value>
+						<li>AEXP_CatAbyssinian</li>
+						<li>AEXP_CatBengal</li>
+						<li>AEXP_CatBritishShorthair</li>
+						<li>AEXP_CatMaineCoon</li>
+						<li>AEXP_CatMunchkin</li>
+						<li>AEXP_CatNorwegianForest</li>
+						<li>AEXP_CatPersian</li>
+						<li>AEXP_CatSiamese</li>
+						<li>AEXP_CatSomali</li>
+						<li>AEXP_CatSphynx</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+
+
+
+
+
+
+
+
+
+
