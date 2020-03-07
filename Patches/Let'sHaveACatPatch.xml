@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Let's Have a Cat!</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="CatToNukos"]/recipeUsers</xpath>
+					<value>
+						<li>akaNEKO_shironeko</li>
+						<li>akaNEKO_kuroneko</li>
+						<li>akaNEKO_kijitora</li>
+						<li>akaNEKO_A_Shorthair</li>
+						<li>akaNEKO_Russian_Blue</li>
+						<li>akaNEKO_Siamese</li>
+						<li>akaNEKO_J_Bobtail</li>
+						<li>akaNEKO_Persian</li>
+						<li>akaNEKO_Scottish_Fold</li>
+						<li>akaNEKO_Scottish_Fold_Long</li>
+						<li>akaNEKO_Maine_Coon</li>
+						<li>akaNEKO_N_Forest_Cat</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
